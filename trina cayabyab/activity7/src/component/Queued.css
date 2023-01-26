@@ -1,0 +1,24 @@
+.Queued1 {
+    width: 60%;
+    position: absolute;
+    right: 0;
+    top: 21em;
+    display: flex;
+
+}
+
+.Queued2 {
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 50%;
+    height: 8em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.1em;
+}
+
+.QueuedT1 {
+    color: gray;
+    font-size: 0.9em;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS Dependencies -->
+	<link rel="stylesheet" href="plugins/bootstrap-v5.2/css/bootstrap-grid.css" type="text/css">
+	<link rel="stylesheet" href="plugins/bootstrap-v5.2/css/bootstrap.css" type="text/css">
+	<link rel="stylesheet" href="plugins/bootstrap-v5.2/css/bootstrap.min.css" type="text/css">
+	<!-- End Bootstrap -->
+
+    <link rel="stylesheet" href="plugins/splide-v4.1.3/dist/css/splide.min.css" type="text/css">
+    <title>Splide Samples</title>
+</head>
+<body>
+    <div class="splide" role="group" aria-label="Splide Basic HTML Example">
+        <div class="splide__track bg-dark">
+              <ul class="splide__list" style="height: 200px;">
+                  <li class="splide__slide bg-primary">Slide 01</li>
+                  <li class="splide__slide bg-success">Slide 02</li>
+                  <li class="splide__slide bg-warning">Slide 03</li>
+              </ul>
+        </div>
+      </div>
+    
+</body>
+<!-- Bootstrap Script Dependencies -->
+<script type="text/javascript" src="plugins/bootstrap-v5.2/js/bootstrap.bundle.js"></script>
+<script type="text/javascript" src="plugins/bootstrap-v5.2/js/bootstrap.js"></script>
+<script type="text/javascript" src="plugins/bootstrap-v5.2/js/bootstrap.min.js"></script>
+<!-- End Bootstrap -->
+
+<script type="text/javascript" src="plugins/splide-v4.1.3/dist/js/splide.min.js"></script>
+<script>
+    new Splide('.splide', {
+        type: "loop",
+        perPage: 3,
+        autoplay: true
+    }).mount()
+</script>
+</html>

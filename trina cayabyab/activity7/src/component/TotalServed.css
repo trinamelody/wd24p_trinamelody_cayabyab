@@ -1,0 +1,23 @@
+.TotalServed1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    right: 0;
+    position: absolute;
+    top: 25px;
+ 
+}
+
+.TotalServed2 {
+    border-radius: 3px;
+    color: rgb(53, 53, 198);
+    background-color: #d4d8d7;
+    margin: 0.1em;
+    width: 30%;
+}
+
+.TotalServed3{
+    font-size: 0.8em;
+    padding: 0 1em;
+}

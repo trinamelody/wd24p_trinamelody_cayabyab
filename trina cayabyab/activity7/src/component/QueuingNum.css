@@ -1,0 +1,29 @@
+.QueuingNumH1 {
+    font-size: 7em;
+    margin: 0.1em 0;
+}
+
+.QueuingNumH2 {
+    text-align: center;
+}
+  
+.QueuingNum1{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    background-color: hsl(191, 89%, 83%);
+    color: hsl(190, 65%, 30%);
+    padding: 2.5em 0;
+    border-radius: 5px;
+    
+
+}
+
+.QueuingNum2 {
+    font-size: 0.8em;
+    text-align: center;
+}
+
